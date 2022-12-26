@@ -63,7 +63,6 @@ font-weight: 900;
 line-height: 60px;
 letter-spacing: 0.06em;
 text-align: center;
-background-color: #000000;
 }
 .blue{color:  #000; 
    font-family: Roboto;
@@ -181,4 +180,71 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
+}
+.containerheader {
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+justify-content: space-between;
+background: #FFFFFF;
+display:flex
+}
+.containerh1 {
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+margin: 10px auto;
+}
+.containerlorem{
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 774px;
+margin: 10px auto;
+display: flex;
+}
+.card-set{
+list-style: none;
+display: flex;
+gap: 30px;
+align-items: center;
+}
+.containerphoto{
+width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+margin: 10px auto;
+display: flex;
+}
+.photos{
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+list-style: none;
+gap: 30px;
+display: flex;
+}
+.containerteam{
+width: 1170px;
+height: 368px;
+left: 215px;
+top: 1635px;
+margin: 10px auto;
+display: flex;
+color: #F5F4FA;
+}
+.team{
+width: 270px;
+height: 260px;
+left: 515px;
+top: 1635px;
+list-style: none;
+display: flex;
+gap: 30px;
+
 }
