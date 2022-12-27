@@ -1,8 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.link:focus{
-   color: #000000;
+.link:focus,
+.link:hover
+{
+   color:#2196F3;
    text-decoration: none;
 }
 
@@ -161,10 +163,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
 }
-.bluehover:hover
-{
-   color: #2196F3;
-}
+
 .header1{ color: #212121;
    font-family: Roboto;
 font-size: 18px;
