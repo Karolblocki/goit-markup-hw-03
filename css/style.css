@@ -8,7 +8,7 @@ body {
    text-decoration: none;
 }
 .link1:focus{
-   
+   text-decoration: none;
 }
 .colorblue{
    color: #2196F3; font-family: Raleway;
@@ -47,10 +47,10 @@ text-align: left;
     background-color:#2196F3;
     color:#FFFFFF;
  }
- button{
+ .button{
     cursor: pointer;
  }
- nav{
+ .nav{
    color: #161616;
    font-family: Roboto;
 font-size: 14px;
@@ -59,7 +59,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
  }
- h1{
+ .h1{
    color: #FFFFFF;
    font-family: Roboto;
 font-size: 44px;
@@ -114,7 +114,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 }
-h2{
+.h2{
    color:#212121;
    font-family: Roboto;
 font-size: 36px;
@@ -181,16 +181,22 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
+
 }
 .containerheader {
 width: 1600px;
 height: 80px;
 left: 0px;
 top: 0px;
-justify-content: space-between;
-background: #FFFFFF;
-display:flex
+background-color: #FFFFFF;
+
 }
+.menu{
+   display: flex;
+   padding:  10px;
+   justify-content: center
+}
+
 .containerh1 {
 width: 1600px;
 height: 600px;
