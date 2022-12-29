@@ -1,85 +1,88 @@
 .body {
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
 .link:focus,
 .link:hover
 {
-   color:#2196F3;
-   text-decoration: none;
+  color: #2196F3;
+  text-decoration: none;
 }
 .link1:focus{
-   text-decoration: none;
+text-decoration: none;
 }
+
 .colorblue{
-   color: #2196F3; font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
+  color: #2196F3; font-family: Raleway;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   text-align: left;
 }
- .colorbluew {
-   background-color: #2F303A;
-    color: #2196F3; font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
- }
- .colorblack {
-  color: #000000; font-family: Raleway;
+.colorbluew {
+  background-color: #2F303A;
+   color: #2196F3; font-family: Raleway;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   text-align: left;
+}
+.colorblack {
+ color: #000000; font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
- }
- .colorwhite { background-color:#2F303A;
+}
+.colorwhite { 
+background-color:#2F303A;
 color: #FFFFFF;  font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
- }
- .background {
-    background-color:#2196F3;
-    color:#FFFFFF;
- }
- .button{
-    cursor: pointer;
- }
- .navi{
-   color: #161616;
-   font-family: Roboto;
+}
+.background {
+   background-color:#2196F3;
+   color:#FFFFFF;
+}
+.button{
+   cursor: pointer;
+}
+.navi{
+  color: #161616;
+  font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
- }
- .h1{
-   color: #FFFFFF;
-   font-family: Roboto;
+}
+.h1style{
+  color: #FFFFFF;
+  font-family: Roboto;
 font-size: 44px;
 font-weight: 900;
 line-height: 60px;
 letter-spacing: 0.06em;
 text-align: center;
+background-color: #000000;
 }
 .blue{color:  #000; 
-   font-family: Roboto;
-   font-size: 14px;
-   font-weight: 500;
-   line-height: 16px;
-   letter-spacing: 0.02em;
-   text-align: left;
-   
-   
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  
+  
 }
 .grey{color: #757575;
-   font-family: Roboto;
+  font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 16px;
@@ -87,8 +90,9 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 .button1{
-   color: #FFFFFF;
-   font-family: Roboto;
+cursor: pointer;
+color: #FFFFFF;
+font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
 line-height: 30px;
@@ -96,9 +100,10 @@ letter-spacing: 0.06em;
 text-align: center;
 background-color: #2196F3;
 }
+
 .header{
-   color: #212121;
-   font-family: Roboto;
+  color: #212121;
+  font-family: Roboto;
 font-size: 14px;
 font-weight: 700;
 line-height: 16px;
@@ -106,25 +111,26 @@ letter-spacing: 0.03em;
 text-align: left;
 }
 .text{
-   color:#757575;
-   font-family: Roboto;
+  color:#757575;
+  font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 }
-.h2{
-   color:#212121;
-   font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 0.03em;
-text-align: center;
+.h2d{
+  color:#212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .name{ color: #212121;
-   font-family: Roboto;
+  font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 19px;
@@ -132,7 +138,7 @@ letter-spacing: 0.03em;
 text-align: center;
 }
 .work{ color: #757575;
-   font-family: Roboto;
+  font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
@@ -140,8 +146,8 @@ letter-spacing: 0.03em;
 text-align: center;
 }
 .footer{ color: #FFFFFF99;
-   background-color: #2F303A;
-   font-family: Roboto;
+  background-color: #2F303A;
+  font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -149,7 +155,7 @@ letter-spacing: 0.03em;
 text-align: left;
 }
 .adress{color: #FFFFFF;background-color: #2F303A;
-   font-family: Roboto;
+  font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -157,7 +163,7 @@ letter-spacing: 0.03em;
 text-align: left;
 }
 .black{
-   color: #212121;
+  color: #212121;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
@@ -165,9 +171,8 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
 }
-
 .header1{ color: #212121;
-   font-family: Roboto;
+  font-family: Roboto;
 font-size: 18px;
 font-weight: 700;
 line-height: 36px;
@@ -175,28 +180,51 @@ letter-spacing: 0.06em;
 text-align: left;
 }
 .text1{color: #757575;
-   font-family: Roboto;
+  font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
-
 }
 .containerheader {
-width: 1600px;
-height: 80px;
+width: 1600px auto;
+height: 80px auto;
 left: 0px;
 top: 0px;
 background-color: #FFFFFF;
+ }
 
-}
-.page-header{
-  display: flex;
-  justify-content: space-between;
-}
-.menu{
+ .page-header {
    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: #607d8b;
+ }
+ .logo {
+   padding: 15px;
+   border-radius: 4px;
+   text-decoration: none;
+ }
+ .menu {
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+   margin: 0;
+   list-style: none;
+   border-radius: 4px;
+   background-color: orange;
+}
+.menu > .item:not(:last-child) {
+   margin-right: 10px;
+}
+.menu .link2 {
+   display: block;
+   padding: 10px;
+   border-radius: 4px;
+   text-decoration: none;
+   justify-content: center;
 }
 
 .containerh1 {
@@ -208,7 +236,6 @@ background: #2F303A;
 margin: 10px auto;
 }
 .h1-set  {
-  display: flex;
   justify-content: center;
   text-align: center;
 }
@@ -265,5 +292,4 @@ top: 1635px;
 list-style: none;
 display: flex;
 gap: 30px;
-
 }
