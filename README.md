@@ -1,1 +1,1 @@
-https://karolblocki.github.io/goit-markup-hw-03/git
+https://karolblocki.github.io/goit-markup-hw-03/
