@@ -193,15 +193,20 @@ height: 80px ;
 background-color: #FFFFFF;
 justify-content: space-between;
 align-items: flex-start;
-list-style-type: none;
  }
- .mail-set{
+
+ .navi{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  
+
+ }
+.mail-set{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
  }
-
 
  .page-header {
    display: flex;
@@ -223,46 +228,55 @@ background: #2F303A;
 }
 
 
-.h1-set  {
-  justify-content: center;
+.h1set{
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
-.but-set{
+
+.butset{
    display: flex;
    justify-content: center;
    text-align: center;
 }
 .containerlorem{
+display: flex;
 width: 1170px;
 height: 101px;
-left: 215px;
-top: 774px;
-margin: 10px auto;
-display: flex;
+justify-content: center;
+background-color: #2196F3;
 }
-.card-set{
-list-style: none;
-display: flex;
-gap: 30px;
-align-items: center;
+.loremset{
+  display: flex;
 }
+
 .containerphoto{
+display: flex;
 width: 1170px;
 height: 386px;
-left: 215px;
-top: 969px;
-margin: 10px auto;
-display: flex;
+margin: 10px;
+background-color: #2196F3;
 }
+
 .photos{
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
-list-style: none;
-gap: 30px;
+background-color: #2196F3;
 display: flex;
+list-style: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .containerteam{
 width: 1170px;
 height: 368px;
